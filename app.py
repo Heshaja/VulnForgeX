@@ -5,10 +5,10 @@ import re
 app = Flask(__name__)
 
 db = {
-    'host': 'localhost',
-    'user': 'root',
-    'password': 'Munni@06',
-    'database': 'users_db'
+    'host': 'host_name',
+    'user': 'username',
+    'password': 'password',
+    'database': 'project_name'
 }
 
 # Open a new database connection for each request
@@ -102,3 +102,4 @@ def login():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
